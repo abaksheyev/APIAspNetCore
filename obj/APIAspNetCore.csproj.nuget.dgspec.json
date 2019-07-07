@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\APIAspNetCore\\APIAspNetCore.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\APIAspNetCore\\APIAspNetCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\APIAspNetCore\\APIAspNetCore.csproj",
+        "projectName": "APIAspNetCore",
+        "projectPath": "E:\\Projects\\APIAspNetCore\\APIAspNetCore.csproj",
+        "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\APIAspNetCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Anton\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/aspnetvnext/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          }
+        }
+      }
+    }
+  }
+}
